@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Pixelify+Sans&display=swap");
+
+:root {
+  --cor-primaria: #007bff; /* Azul primário */
+  --cor-secundaria: #ff5722; /* Laranja secundário */
+  --cor-fundo: #f8f8f8; /* Cor de fundo */
+  --cor-texto: #333; /* Cor do texto */
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: var(--cor-primaria);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px; /* Reduz o tamanho da logo */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centraliza a logo */
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+nav ul li p {
+  color: white;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+nav ul li p:hover {
+  color: var(--cor-secundaria);
+}

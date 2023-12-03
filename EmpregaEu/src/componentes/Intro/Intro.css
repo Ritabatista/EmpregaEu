@@ -1,0 +1,21 @@
+.intro {
+  text-align: center;
+  padding: 20px 0;
+  background: linear-gradient(
+    to bottom,
+    #007bff,
+    #0056b3
+  ); /* Efeito degradê no fundo */
+  color: white;
+}
+
+.intro h1 {
+  font-size: 8em;
+  font-family: "Pixelify Sans", cursive;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
